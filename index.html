@@ -3,17 +3,42 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+
     <title>Para onde vão seus dados?</title>
   </head>
   <body>
     <header>
-      <img src="./media/zero1.svg" alt="logotipo zero um" id="logotype" />
+      <img src="./images/logoL.svg" alt="logotipo zero um" id="logotype" />
+      <div id="header-itens">
+        <div id="size-btns" class="header-btns">
+        <span class="text-increase">A+</span>
+        <span class="text-decrease">A-</span>
+      </div>
+        <span class="material-symbols-outlined dark-light header-btns"> contrast </span>
+        <span class="material-symbols-outlined nav-bar header-btns"> menu </span>
+      </div>
     </header>
     <!-- <main> -->
     <article>
       <h1>Para onde vão seus dados quando você acessa a internet?</h1>
       <p id="create-update">criado em mm/dd/yy | Atualizado em dd/mm/yy</p>
-      
+
+      <div id="audio-area">
+        <p id="listen-text">Ouvir conteúdo</p>
+        <audio src="./audio/audio.mp3" controls="controls"></audio>
+        <!-- inserir audios em varias versoes -->
+      </div>
+
+      <p id="intro">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
+        sapiente dolores odit et dignissimos molestias necessitatibus, molestiae
+        culpa repudiandae sit quidem quos magnam provident ab dicta non
+        inventore facere alias.
+      </p>
     </article>
     <!-- </main> -->
     <link rel="stylesheet" href="style.css" />

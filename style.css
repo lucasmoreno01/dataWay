@@ -1,45 +1,110 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600&family=Roboto+Mono:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500&display=swap");
+
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Roboto Mono', monospace, sans-serif;
-  
+  font-family: "Poppins", arial, sans-serif;
 }
 
-header{
-    display: flex;
-    height: 10vh;
-    align-items: center;
-    box-shadow: 0px 2px 15px 1px rgba(0, 0, 0, 0.0500);
-    margin-bottom: 10vh;
+header {
+  display: flex;
+  height: 10vh;
+  align-items: center;
+  box-shadow: 0px 2px 15px 1px rgba(0, 0, 0, 0.05);
+  margin-bottom: 5vh;
+  justify-content: space-between;
+  padding: 0 1em;
 }
 
-article{
-    text-align: left;
-    padding: 0 6vw;
-    display: flex;
-    flex-wrap: wrap;
+#header-itens {
+  display: flex;
+  align-items: center;
+}
+.header-btns {
+  margin: 0 0.5em;
 }
 
-h1{
-    border-left: 1px solid;
-    color: #000;
-    font-weight: bolder;
-    font-size:5.5vw ;
-    padding-left: 2vw;
-    
-}
-#logotype{
-   width: 10%;
-   visibility: hidden;
-}
-#create-update{
-    margin-top: 1.5vh;
-    padding-left: 2vw;
-    color: #909090;
-    font-weight:300 ;
-    font-size: calc(1em + 4%);
-    
+.text-increase,
+.text-decrease {
+  cursor: pointer;
 }
 
+#size-btns {
+  font-size: 1.2em;
+  font-weight: 600;
+  cursor: default;
+}
 
+.material-symbols-outlined {
+  font-family: "Material Icons";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1.5em; /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  cursor: pointer;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: "liga";
+}
+
+.nav-bar {
+  font-size: 2em;
+}
+
+.dark-light {
+  font-weight: 600;
+}
+
+article {
+  text-align: left;
+  padding: 0 6vw;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+h1 {
+  border-left: 1px solid;
+  color: #000;
+  font-weight: 600;
+  font-size: 1.51em;
+  padding-left: 2vw;
+}
+#logotype {
+  width: 15%;
+}
+#create-update {
+  margin: 1vh 0 1vh 5px;
+  color: #909090;
+  font-weight: 300;
+  font-size: 0.75em;
+}
+audio {
+  max-width: 70vw;
+  height: 2.1em;
+}
+
+#audio-area {
+  margin: 0.6em 0;
+  font-weight: 600;
+  font-size: 1.2em;
+  display: flex;
+  flex-direction: column;
+}
+#audio-area p {
+  margin-left: 10px;
+}
