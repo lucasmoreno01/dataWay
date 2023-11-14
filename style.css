@@ -96,7 +96,7 @@ h1 {
 }
 
 a img {
-  width: 4vh;
+  width: 1.5em;
 }
 
 a {
@@ -119,11 +119,6 @@ article {
   flex-direction: column;
 }
 
-audio {
-  max-width: 70vw;
-  height: 2.1em;
-}
-
 #audio-area {
   margin: 0.6em 0;
   font-weight: 600;
@@ -131,6 +126,12 @@ audio {
   display: flex;
   flex-direction: column;
 }
+
+audio {
+  max-width: 70vw;
+  height: 2.1em;
+}
+
 #audio-area p {
   margin-left: 10px;
 }
