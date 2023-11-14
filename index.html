@@ -4,10 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
+      rel="shortcut icon"
+      href="./images/iconLogo.svg"
+      type="image/x-icon"
+    />
+    <link
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
     />
-
     <title>Para onde vão seus dados?</title>
   </head>
   <body>
@@ -15,14 +19,39 @@
       <img src="./images/logoL.svg" alt="logotipo zero um" id="logotype" />
       <div id="header-itens">
         <div id="size-btns" class="header-btns">
-        <span class="text-increase">A+</span>
-        <span class="text-decrease">A-</span>
-      </div>
-        <span class="material-symbols-outlined dark-light header-btns"> contrast </span>
-        <span class="material-symbols-outlined nav-bar header-btns"> menu </span>
+          <span class="text-increase" title="Aumentar texto">A+</span>
+          <span class="text-decrease" title="Diminuir texto">A-</span>
+        </div>
+        <span
+          class="material-symbols-outlined dark-light header-btns"
+          title="Modo escuro"
+        >
+          contrast
+        </span>
+        <a
+          href="https://www.instagram.com/equipezero1_/"
+          class="header-btns"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><img
+            src="./images/instagramLogo.svg"
+            alt="nosso instagram"
+            class="instagram"
+            title="Nosso instagram"
+        /></a>
+        <a
+          href="https://github.com/lucasmoreno01/dataWay"
+          class="header-btns"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><img
+            src="./images/github.svg"
+            alt="nosso instagram"
+            class="instagram"
+            title="Codigo no gitHub"
+        /></a>
       </div>
     </header>
-    <!-- <main> -->
     <article>
       <h1>Para onde vão seus dados quando você acessa a internet?</h1>
       <p id="create-update">criado em mm/dd/yy | Atualizado em dd/mm/yy</p>
@@ -33,14 +62,14 @@
         <!-- inserir audios em varias versoes -->
       </div>
 
-      <p id="intro">
+      <p id="intro" class="content">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
         sapiente dolores odit et dignissimos molestias necessitatibus, molestiae
         culpa repudiandae sit quidem quos magnam provident ab dicta non
         inventore facere alias.
       </p>
     </article>
-    <!-- </main> -->
     <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
   </body>
 </html>
