@@ -6,6 +6,20 @@
   font-family: "Poppins", arial, sans-serif;
 }
 
+/* configurações para o modo escuro */
+.dark-mode {
+  background-color: #1e1e1e;
+  color: #fff;
+}
+
+.dark-mode .content {
+  color: #fff;
+}
+
+.dark-mode a img {
+  filter: invert();
+}
+
 header {
   display: flex;
   height: 10vh;
@@ -14,6 +28,11 @@ header {
   margin-bottom: 5vh;
   justify-content: space-between;
   padding: 0 1em;
+  user-select: none;
+}
+
+#logotype {
+  height: 60%;
 }
 
 #header-itens {
@@ -66,7 +85,30 @@ header {
 }
 
 .dark-light {
+  font-weight: bolder;
+}
+
+h1 {
+  border-left: 1px solid;
   font-weight: 600;
+  font-size: 1.51em;
+  padding-left: 0.5em;
+}
+
+a img {
+  width: 4vh;
+}
+
+a {
+  display: flex;
+  align-items: center;
+}
+
+#create-update {
+  margin: 1vh 0 1vh 5px;
+  color: #909090;
+  font-weight: 300;
+  font-size: 0.75em;
 }
 
 article {
@@ -77,22 +119,6 @@ article {
   flex-direction: column;
 }
 
-h1 {
-  border-left: 1px solid;
-  color: #000;
-  font-weight: 600;
-  font-size: 1.51em;
-  padding-left: 2vw;
-}
-#logotype {
-  width: 15%;
-}
-#create-update {
-  margin: 1vh 0 1vh 5px;
-  color: #909090;
-  font-weight: 300;
-  font-size: 0.75em;
-}
 audio {
   max-width: 70vw;
   height: 2.1em;
@@ -107,4 +133,38 @@ audio {
 }
 #audio-area p {
   margin-left: 10px;
+}
+
+.content {
+  color: #1e1e1e;
+}
+
+@media (min-width: 900px) {
+  h1 {
+    font-size: 2.4em;
+  }
+
+  #create-update {
+    font-size: 0.9em;
+  }
+
+  #header-itens {
+    font-size: 1.3em;
+  }
+}
+
+/* versão para impressão */
+@media print {
+  header {
+    box-shadow: none;
+    padding: 0;
+    margin: 10px;
+    height: 8vh;
+    justify-content: center;
+  }
+
+  #header-itens,
+  #audio-area {
+    display: none;
+  }
 }
