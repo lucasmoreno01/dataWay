@@ -20,6 +20,6 @@ Esse website foi pensado para ter o maximo de acessibilidade possível.
 
 ***
 
-Projeto criado pela "Equipe Zero1", criado para o trabalho final da matéria **Computador, Ética e Sociedade** da **Universidade Federal da Bahia**.
+Projeto criado pela "Equipe Zero1", para o trabalho final da matéria **Computador, Ética e Sociedade** da **Universidade Federal da Bahia**.
 <img src="zero1BG.png" alt="Imagem da tela inicial do site">
 
