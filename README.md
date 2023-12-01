@@ -9,6 +9,7 @@ Esse website foi pensado para ter o maximo de acessibilidade possível.
 - Opção de aumentar letra
 - Alto contraste de texto
 - Conteúdo em audio
+- Versão ajustada para impressão 
 
 <img src="screenshot-POVSD-PC.png" alt="Imagem da tela inicial do site em computador">
 
