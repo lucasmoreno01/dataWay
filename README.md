@@ -5,6 +5,7 @@ Esse projeto foi criado com o intuito de informar aos usuários o que acontece c
 Esse website foi pensado para ter o maximo de acessibilidade possível.
 
 - Responsivo
+- Semântico
 - Modo escuro
 - Opção de aumentar letra
 - Alto contraste de texto
