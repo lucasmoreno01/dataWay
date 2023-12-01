@@ -2,7 +2,7 @@
 
 Esse projeto foi criado com o intuito de informar aos usuários o que acontece com suas informações pessoais na internet e como podemos engajar na proteção de dados pessoas e na libredade de software.
 
-Esse website foi pensado para ter o meximo de acessibilidade possível.
+Esse website foi pensado para ter o maximo de acessibilidade possível.
 
 - Responsivo
 - Modo escuro
@@ -19,6 +19,7 @@ Esse website foi pensado para ter o meximo de acessibilidade possível.
 > Website visualizado no celular
 
 ***
+
 Projeto criado pela "Equipe Zero1", criado para o trabalho final da matéria **Computador, Ética e Sociedade** da **Universidade Federal da Bahia**.
-<img src="zero1.png" alt="Imagem da tela inicial do site">
+<img src="zero1BG.png" alt="Imagem da tela inicial do site">
 
