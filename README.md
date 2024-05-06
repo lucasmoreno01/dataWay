@@ -2,6 +2,9 @@
 
 Esse projeto foi criado com o intuito de informar aos usuários o que acontece com suas informações pessoais na internet e como podemos engajar na proteção de dados pessoas e na libredade de software.
 
+ ### [Acesse o projeto](https://dataway.netlify.app/)
+
+
 Esse website foi pensado para ter o maximo de acessibilidade possível.
 
 - Responsivo
