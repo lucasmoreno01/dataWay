@@ -17,7 +17,7 @@ Esse website foi pensado para ter o maximo de acessibilidade possível.
 
 <img src="screenshot-POVSD-PC.png" alt="Imagem da tela inicial do site em computador">
 
-> webisite visualizado em um computador.
+> website visualizado em um computador.
 
 <img src="screenshot-mobile.jpeg" alt="Imagem da tela inicial do site no celular ">
 
